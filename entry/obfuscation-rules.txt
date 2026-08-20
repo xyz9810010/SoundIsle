@@ -1,0 +1,1 @@
+# SoundIsle obfuscation rules (obfuscation disabled for M0 baseline)

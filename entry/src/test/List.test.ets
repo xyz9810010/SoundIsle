@@ -1,0 +1,43 @@
+import avPlayerPlaybackEngineTest from './AvPlayerPlaybackEngine.test';
+import defaultPlayerControllerTest from './DefaultPlayerController.test';
+import domainErrorTest from './DomainError.test';
+import domainModelTest from './DomainModel.test';
+import engineStateMappingTest from './EngineStateMapping.test';
+import networkErrorMappingTest from './NetworkErrorMapping.test';
+import openSubsonicCapabilitiesTest from './OpenSubsonicCapabilities.test';
+import openSubsonicMappersTest from './OpenSubsonicMappers.test';
+import pingDtosTest from './PingDtos.test';
+import playbackStateTest from './PlaybackState.test';
+import providerPlaybackResolverTest from './ProviderPlaybackResolver.test';
+import rdbServerRepositoryTest from './RdbServerRepository.test';
+import realNavidromeFixturesTest from './RealNavidromeFixtures.test';
+import repositoryTest from './Repository.test';
+import serverConnectionFlowTest from './ServerConnectionFlow.test';
+import serverDatabaseSchemaTest from './ServerDatabaseSchema.test';
+import serverProfileMapperTest from './ServerProfileMapper.test';
+import secureStorageTest from './SecureStorage.test';
+import serverUrlTest from './ServerUrl.test';
+import subsonicAuthTest from './SubsonicAuth.test';
+
+export default function testsuite() {
+  domainModelTest();
+  domainErrorTest();
+  engineStateMappingTest();
+  avPlayerPlaybackEngineTest();
+  defaultPlayerControllerTest();
+  networkErrorMappingTest();
+  repositoryTest();
+  playbackStateTest();
+  providerPlaybackResolverTest();
+  serverUrlTest();
+  serverProfileMapperTest();
+  serverDatabaseSchemaTest();
+  rdbServerRepositoryTest();
+  subsonicAuthTest();
+  pingDtosTest();
+  realNavidromeFixturesTest();
+  openSubsonicMappersTest();
+  openSubsonicCapabilitiesTest();
+  secureStorageTest();
+  serverConnectionFlowTest();
+}

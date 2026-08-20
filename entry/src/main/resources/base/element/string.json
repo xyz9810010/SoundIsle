@@ -1,0 +1,7 @@
+{
+  "string": [
+    { "name": "module_desc", "value": "SoundIsle entry module" },
+    { "name": "EntryAbility_desc", "value": "SoundIsle main ability" },
+    { "name": "EntryAbility_label", "value": "SoundIsle" }
+  ]
+}

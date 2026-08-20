@@ -1,0 +1,30 @@
+# Node / ohpm
+/node_modules/
+/oh_modules/
+/entry/oh_modules/
+oh-package-lock.json5
+
+# Hvigor build caches
+/.hvigor/
+/entry/build/
+/entry/.test/
+/build/
+
+# Local config (SDK path, signing)
+/local.properties
+/.idea/
+
+# Build artifacts
+*.hap
+*.har
+
+# DevEco analyzer cache
+/.appanalyzer/
+
+# Device UI-dump / screenshot artifacts (hdc uitest)
+/s.xml
+/ui.xml
+/ui2.xml
+/ui3.xml
+/ui4.xml
+/si_screen.jpeg

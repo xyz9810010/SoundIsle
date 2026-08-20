@@ -1,0 +1,56 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "C:\\Users\\Administrator\\.ohos\\config\\default_SoundIsle_kQ98ik42NI5Xb_EH0Zd5uVK9h2bxPFjMG1cKTRR78W0=.cer",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001B32B4C69DF234F7FB2F20790E0943C01DEA1126B929C48CAAD39BA628A6E8B0925DC748035D4D3C",
+          "profile": "C:\\Users\\Administrator\\.ohos\\config\\default_SoundIsle_kQ98ik42NI5Xb_EH0Zd5uVK9h2bxPFjMG1cKTRR78W0=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\Administrator\\.ohos\\config\\default_SoundIsle_kQ98ik42NI5Xb_EH0Zd5uVK9h2bxPFjMG1cKTRR78W0=.p12",
+          "storePassword": "0000001B727BE494A0CCAC8BF08AA8E84C3214757EE43EEFF829A690A2ADE46FE8CBE81C7E72B213E40D8D"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "compatibleSdkVersion": "6.0.0(20)",
+        "targetSdkVersion": "6.1.1(24)",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug"
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}
